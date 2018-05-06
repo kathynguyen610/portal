@@ -6,8 +6,8 @@ nav {
 	background:#111;
 	font-family:'Open Sans';
 	font-weight:500;
-	padding:10px;
-	padding-right:20px;
+	padding:20px;
+	padding-right:30px;
 	text-align:right;
 	a {
 		color:#fff;
@@ -15,7 +15,7 @@ nav {
 		text-transform:uppercase;
 		font-size:.8em;
 		letter-spacing: 2px;
-		margin: 0 5px 0 5px;
+		margin: 0 10px 0 10px;
 
 
 	}
@@ -98,5 +98,11 @@ main {
   and (max-width:550px) {
   	.proj-cont .proj-name {
   		opacity:1;
+  	}
+
+  	nav {
+		text-align:center;
+		display:flex;
+		justify-content:space-evenly;
   	}
   }
