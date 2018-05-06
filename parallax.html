@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>parallax</title>
+	<style>
+		main {
+			perspective:1px;
+			height:100vh;
+			overflow-x:hidden;
+			overflow-y:auto;
+		}
+
+		section {
+			position:absolute;
+			top:0;
+			right:0;
+			bottom:0;
+			left:0;
+			padding: 100vh 0;
+		}
+
+		.back {
+			transform: translateZ(-2px) scale(3);
+			background:url('img/parallax/p3.png');
+			background-size:cover;
+		}
+
+		.mid {
+			transform: translateZ(-1px) scale(2);
+			background:url('img/parallax/p2.png');
+			background-size:cover;
+		}
+
+		.fore {
+			transform:translateZ(0) scale(1);
+			background:url('img/parallax/p1.png');
+			background-size:cover;
+		}
+
+		h1 {
+			position: absolute;
+			left:50%;
+			top:50%;
+			transform: translate(-50%, -50%);
+		}
+
+	</style>
+
+</head>
+<body>
+<main>
+	<section class="back">
+	</section>
+	<section class="mid">
+
+	</section>
+	<section class="fore">
+	</section>
+</main>
+</body>
+</html>
