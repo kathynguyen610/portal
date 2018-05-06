@@ -23,7 +23,8 @@ nav {
 
 
 header {
-	background:gray;
+	background-image:url('../img/bg.png');
+	background-size:cover;
 	height:70vh;
 	display:flex;
 	flex-direction:column;
@@ -61,7 +62,7 @@ main {
 	height:200px;
 	background:gray;
 	margin:15px;
-	border: 10px solid pink;
+	border: 10px solid #f9d3f2;
 
 	.proj-name {
 		width:100%;
